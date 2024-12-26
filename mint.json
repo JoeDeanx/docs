@@ -34,11 +34,16 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Wallet",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/wallet/get-api-credits"
+      ]
+    },
+    {
+      "group": "OpenAPI v1",
+      "pages": [
+        "api-reference/endpoint/openapi-v1/text-to-prompt",
+        "api-reference/endpoint/openapi-v1/image-to-prompt"
       ]
     }
   ]
