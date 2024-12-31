@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg",
-    "href": "https://fluxaiimagegenerator.com"
+    "href": "https://fluxaiimagegenerator.com/my/api"
   },
   "favicon": "/favicon.svg",
   "colors": {
