@@ -67,7 +67,37 @@
                         "credits": 148
                       }
                     }
+                  },
+                  "2": {
+                    "summary": "成功示例",
+                    "value": {
+                      "code": 401,
+                      "message": "Invalid API key"
+                    }
                   }
+                }
+              }
+            },
+            "headers": {}
+          },
+          "401": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "integer"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "code",
+                    "message"
+                  ]
                 }
               }
             },
@@ -192,7 +222,8 @@
                 "type": "object",
                 "properties": {
                   "image": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Base64 encoded image string. Must start with data URI scheme, e.g.: 'data:image/jpeg;base64,' or 'data:image/png;base64,'. Supported formats: PNG, JPEG, WEBP"
                   }
                 },
                 "required": [
